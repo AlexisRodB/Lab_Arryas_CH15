@@ -1,0 +1,9 @@
+{
+  "name": "ejercicios-arrays-ch15",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Taller calificable de arreglos de objetos y funciones · Fogón Andino · Generation Colombia Cohorte 15",
+  "scripts": {
+    "test": "node scripts/calificar.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "curso": "🍲 Fogón Andino · Arreglos de objetos y funciones",
+  "fechaLimite": "2026-10-10T23:59:00-05:00",
+  "patronTest": "^test\\(",
+  "protegidos": ["tests/", "scripts/", ".github/", "package.json"],
+  "ejercicios": [
+    { "id": "01", "titulo": "Acceso a un plato", "test": "tests/01-acceso-a-un-plato.test.js" },
+    { "id": "02", "titulo": "Carta numerada", "test": "tests/02-carta-numerada.test.js" },
+    { "id": "03", "titulo": "Solo disponibles", "test": "tests/03-solo-disponibles.test.js" },
+    { "id": "04", "titulo": "Platos por categoría", "test": "tests/04-platos-por-categoria.test.js" },
+    { "id": "05", "titulo": "Agregar al pedido", "test": "tests/05-agregar-al-pedido.test.js" },
+    { "id": "06", "titulo": "Cancelar el último", "test": "tests/06-cancelar-ultimo.test.js" },
+    { "id": "07", "titulo": "Calcular la cuenta", "test": "tests/07-calcular-cuenta.test.js" },
+    { "id": "08", "titulo": "Cerrar la mesa", "test": "tests/08-cerrar-mesa.test.js" }
+  ]
+}
