@@ -19,7 +19,15 @@
 
 function cartaNumerada(menu) {
   // Tu código aquí
+  const resultado = []; 
+  for (let i = 0; i < menu.length; i++) {
+    const plato = menu[i];
+    resultado.push(`${i}. ${plato.nombre} · $${plato.precio}`);
+  }
+  return resultado;
 }
 
 // No borres esta línea: es la puerta por donde el test usa tu función
 module.exports = { cartaNumerada };
+
+//
