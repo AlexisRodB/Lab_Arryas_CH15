@@ -32,3 +32,5 @@ function describirPlato(menu, posicion) {
 
 // No borres esta línea: es la puerta por donde el test usa tu función
 module.exports = { describirPlato };
+
+//
